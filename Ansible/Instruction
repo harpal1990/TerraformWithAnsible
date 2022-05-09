@@ -1,0 +1,11 @@
+Instruction
+
+Setup Ansible with https://github.com/harpal1990/magentosetup link and add 2 things in ansible.cfg as follow
+
+[defaults]
+inventory = /home/harpal/Desktop/Desktop/KB/Terraform/VPC/ip.txt
+host_key_checking = False
+private_key_file = /home/harpal/keys/id_rsa
+remote_user = root
+remote_tmp = /tmp/
+
